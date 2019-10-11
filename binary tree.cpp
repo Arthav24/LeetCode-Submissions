@@ -35,9 +35,6 @@ void inorder(struct node *root)
         inorder(root->right);
     }
 }
-int romanToInt(string s)
-{
-}
 
 int main()
 {
@@ -52,6 +49,5 @@ int main()
     insert(root, 1);
     inorder(root);
 
-    //cout<<romanToInt("II");
     return 0;
 }
